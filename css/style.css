@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Redressed', cursive;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{box-sizing: border-box;}
+:root{
+    --heading-color: #3CA434;
+    --p-color: #011500;
+    --primary-color: #f79332;
+
+}
+.section-title {
+    text-align: center;
+    font-size: 4em;
+    color: var(--heading-color);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.default_paragraph_title{
+    line-height: 1.7em;
+    font-size: 1.1em;
+    color: var(--p-color);
+    font-family: system-ui;
+    text-align: center;
+    max-width: 1010px;
+}
+.section-title span{
+    background-color: var(--heading-color);
+    color: #fff;
+}
+/* Header section css starts here */
+.header_section{
+    background-image: url("/images/header-bg.png");
+    background-size: cover;
+    background-position: bottom center;
+}
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.header_logo img {
+    width: 86%;
+    height: 26vh;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.nev_link {
+    font-family: system-ui;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 15px;
+    font-weight: 500;
+    color: var(--primary-color);
+    border-right: 2px solid var(--primary-color);
+    /* font-size: 1.1em; */
+}
+.nev_link:last-child{
+    border-right: 0;
+}
+/* Header section css ends here */
+
+
+/* Section Body css starts here */
+.section_body{
+    background: url("/images/body-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    padding-top: 50px;
+}
+.vergan_cheese {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vergan_cheese{margin-bottom: 30px;}
+.vergan_cheese .vergan_top_img {
+    width: 32%;
+    margin-bottom: 25px;
+}
+.vergan_cheese .defult_paragraph_title {
+    margin-top: 40px;
+    
+}
+
+
+
+/* Our products css starts here */
+.our_products {
+    padding: 80px 0px;
+}
+.our_products_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 6em;
+}
+
+.single_products_box {margin: 29px 15px; cursor: pointer;}
+.single_products_box p {
+    padding-top: 15px;
+    font-size: 1.15em;
+    color: #000000ba;
+    text-align: center;
+    line-height: 1.6em;
+}
+.single_products_box img {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+.our_products .section-title{
+    margin-bottom: 25px;
+}
+
+
+
+/* Nature css start here */
+.naturs_section{
+    background-color: #FFFCF3;
+    padding: 45px 0px;
+}
+.naturs_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.naturs_wrapper .section-title{
+    margin-bottom: 20px;
+}
+
+.happiness{
+    background-color: #FAFDF9;
+}
+/* Nature css ends here */
+
+
+/* Section Body css ends here */
+
+.contact_us{
+    margin: 30px 0px;
+}
+
+/* Contact us starts here */
+
+.footer_section{
+    background: linear-gradient(to right,#FFFCF3 50%, #F2F9F1 50%);
+}
+.contact_section {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.contact_content_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 57%;
+}
+.contact_content_left img {
+    width: 18em;
+    height: 7em;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 1.1em;
+}
+.contact_content_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title {
+    font-size: 1.6em;
+    margin-bottom: 22px;
+    color: brown;
+}
+.contact_flex i {
+    font-size: 1.35em;
+    color: var(--heading-color);
+}
+
+.contact_flex a {
+    margin-left: 13px;
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.1em;
+}
+
+.contact_flex {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
